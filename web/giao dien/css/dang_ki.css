@@ -1,0 +1,27 @@
+.navbar-inverse .navbar-brand {
+    color:#e81c1c;
+}
+.navbar-inverse {
+    background-color: #81daf5;
+    border-color: #81daf5;
+}
+.thumbnail {
+    color: #3a1aa3;
+}
+.checkbox-inline, .radio-inline {
+    padding-left: 34px;
+}
+.btn{
+    margin-right: 16px;
+    float: right;
+    
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.GT{
+    margin-left: 16px;
+}
