@@ -1,0 +1,38 @@
+.navbar-inverse .navbar-brand {
+    color:#e81c1c;
+}
+.navbar-inverse {
+    background-color: #81daf5;
+    border-color: #81daf5;
+}
+.thumbnail {
+    color: #3a1aa3;
+}
+.checkbox-inline, .radio-inline {
+    padding-left: 30px;
+}
+.btn{
+    margin-right: 16px;
+    float: right;
+    
+}
+label  {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.HangMoi{
+    margin-left: 10px;
+    float: left;
+}
+#inlineCheckbox1{
+    margin-right: 10px;
+   
+}
+#inlineCheckbox2{
+    margin-right: 10px;
+}
+footer{
+    background-color: #0d87ac;
+}
