@@ -1,0 +1,16 @@
+.navbar-inverse .navbar-brand {
+    color:#e81c1c;
+}
+.navbar-inverse {
+    background-color: #81daf5;
+    border-color: #81daf5;
+}
+.thumbnail {
+    color: #3a1aa3;
+}
+footer{
+    background-color: #0d87ac;
+}
+.checked {
+    color: orange;
+  }

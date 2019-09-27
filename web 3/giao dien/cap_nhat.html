@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cập nhật thông tin</title>
+    
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/capnhat.css"/>
+    <script src="../jquery/jquery.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+   <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Question & Answer</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+         <ul class="nav navbar-nav">
+            <li><a href="#">TRANG CHỦ</a></li>
+            <li><a href="#">ASK QUESTIONS</a></li>
+         </ul>
+         <form class="navbar-form navbar-right" role="search">
+            <div class="form-group input-group">
+               <input type="text" class="form-control" placeholder="Search..">
+               <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">
+                     <span class="glyphicon glyphicon-search"></span>
+                  </button>
+               </span>        
+            </div>
+         </form>
+
+         <ul class="nav navbar-nav navbar-right">
+            <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span>TÀI KHOẢN CỦA TÔI</a></li> -->
+            <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Acount
+                  <span class="caret"></span>
+               </a>
+               <ul class="dropdown-menu">
+                     <li><a href="file:///C:/Users/AD/Downloads/web/giao%20dien/cap_nhat.html"><span class="glyphicon glyphicon-edit"></span> Cập nhật thông tin</a></li>
+                   
+                     <li><a href="file:///C:/Users/AD/Downloads/web/giao%20dien/dangnhap_1.html"><span class="glyphicon glyphicon-log-in"></span> Thoát</a></li>
+               </ul>
+            </li>
+            <!-- <li><a href="file:///C:/Users/AD/Downloads/web/giao%20dien/dangnhap_1.html"><span class="glyphicon glyphicon-log-in"></span> ĐĂNG XUẤT</a></li> -->
+         </ul>
+      </div>
+      </div>
+   </nav>
+    
+   <div class="container text-center">   
+      <div class="row"> 
+         <div class="col-xs-12 col-sm-12 col-md-4 well well-sm col-md-offset-4"> 
+            <legend>
+               <a href="#"><i class="glyphicon glyphicon-globe"></i></a> Cập nhật thông tin
+            </legend> 
+               <form action="#" method="post" class="form" role="form"> 
+                  <label class="HangMoi">Họ và tên đầy đủ</label> 
+                  <div class="row"> 
+                     <div class="col-xs-12 col-md-12"> 
+                        <input class="form-control" name="firstname" required="" autofocus="" type="text"> 
+                     </div> 
+                  </div> 
+                  <br>
+                  
+                  <!-- <label class="HangMoi">Nơi ở</label>     
+                     <input class="form-control" name="youremail" type="text"> 
+                  <br> -->
+
+                  <div class="form-group">
+                     <label class="HangMoi">Nơi sống</label>
+                        <select class="form-control">
+                           <option value="" selected>Nơi sống của bạn</option>
+                           <option value="">TPHCM</option>
+                           <option value="">Hà Nội</option>
+                           <option value="">Khác</option>
+                        </select>
+                  </div>
+    
+                  <label class="HangMoi">Giới thiệu bản thân</label> 
+                     <input class="form-control" name="gioiThieu" type="text"> 
+                  <br>
+
+                  <label class="HangMoi">Ngày sinh</label> 
+                  <br>
+                     <input class="form-control" type="date" name="ngaysinh">
+                     <br>
+                  
+                  <label class="HangMoi">Giới tính</label> 
+                  
+                     <input name="sex" id="inlineCheckbox1" value="male" type="radio" checked>Nam
+                     
+                     <input name="sex" id="inlineCheckbox2" value="female" type="radio">Nữ
+                  <br>
+                  <br>
+                  <a class="btn btn-info" href="file:///C:/Users/Admin/Downloads/web/giao%20dien/trangchu.html">Cập nhật</a> 
+               </form> 
+         </div> 
+      </div>
+   </div>
+  
+   <footer class="container-fluid text-center">
+      <div id="contact" class="container-fluid bg-grey">
+         <h2 class="text-center">LIÊN HỆ</h2>
+         <div class="row">
+            <div class="col-sm-5" style="font-size: 15px;">
+               <p>Contact us and we'll get back to you within 24 hours.</p>
+               <p><span class="glyphicon glyphicon-map-marker"></span> Cau Giay, Ha Noi</p>
+               <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+               <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+            </div>
+
+            <div class="col-sm-7 slideanim">
+               <div class="row">
+                  <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+               </div>
+               <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+               </div>
+            </div>
+
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+               <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit">Send</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </footer>
+</body>
+</html>
