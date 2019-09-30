@@ -1,0 +1,56 @@
+/* .navbar-inverse .navbar-brand {
+    color:#e81c1c;
+}
+.navbar-inverse {
+    background-color: #81daf5;
+    border-color: #81daf5;
+}
+.thumbnail {
+    color: #3a1aa3;
+}
+footer{
+    background-color: #0d87ac;
+} */
+.navbar-inverse .navbar-brand {
+    color:#ffffff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #7c0000;
+}
+.navbar-inverse {
+    background-color: #81daf5;
+    border-color: #81daf5;
+    background-image: linear-gradient(135deg, #1709e9, #ae80f1, #2685d2)
+}
+.thumbnail {
+    color: #3a1aa3;
+}
+footer{
+    /* background-color: #0d87ac; */
+    background-image: linear-gradient(135deg, #0e1cbd, #3cd4c6, #268cd2);
+}
+.checkbox-inline, .radio-inline {
+    padding-left: 30px;
+}
+.btn{
+    margin-right: 16px;
+    float: right;
+    
+}
+label  {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.HangMoi{
+    margin-left: 10px;
+    float: left;
+}
+#inlineCheckbox1{
+    margin-right: 10px;
+   
+}
+#inlineCheckbox2{
+    margin-right: 10px;
+}
