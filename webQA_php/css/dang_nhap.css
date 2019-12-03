@@ -1,0 +1,14 @@
+.navbar-inverse .navbar-brand {
+    color:#ffffff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #7c0000;
+}
+.navbar-inverse {
+    background-color: #81daf5;
+    border-color: #81daf5;
+    background-image: linear-gradient(135deg, #1709e9, #ae80f1, #2685d2)
+}
+.thumbnail {
+    color: #3a1aa3;
+}
